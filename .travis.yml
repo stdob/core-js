@@ -1,7 +1,11 @@
 language: node_js
 node_js:
-  - 'stable'
+  - '10'
   - '8'
   - '6'
+os:
+  - windows
+  - linux
+  - osx
 
 sudo: false
